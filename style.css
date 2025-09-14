@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-image: linear-gradient(to top right,#EEAECA, #94BBE9);
+    width: 100vw;
+    height: 100vh;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 40px;
+    color: #333333;
+    gap: 10px;
+}
+
+#buttonSection {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 635px;
+    background-color: #EEAECA;
+    border-radius: 10px;
+    
+    
+}
+
+.buttons {
+    background-color: transparent;
+    font-size: 15px;
+    margin: 5px;
+    border-radius: 10px;
+    
+}
+
+#container {
+    margin-top: 20px;
+    border: 10px solid #EEAECA;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    width: 620px;
+    height: 620px;
+}
+
+#container div {
+    
+    border: 0.1px solid #D3D3D3;
+    flex-basis: 1%;
+    box-sizing: border-box;
+}
+
+img {
+    height: 40px;
+    width: 40px;
+    
+}
