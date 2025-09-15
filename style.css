@@ -46,14 +46,6 @@ body {
     height: 600px;
 }
 
-#container div {
-    
-    border: 0.1px solid #D3D3D3;
-    flex-basis: 6.25%;
-    height: 6.25%;
-    box-sizing: border-box;
-}
-
 img {
     height: 40px;
     width: 40px;
